@@ -16,5 +16,6 @@ public class ShiftDemo{
 		//Sign shift to the right
 		System.out.println(c >> 1);
 		System.out.println(c >>> 1);
+		System.out.println(b >>> 2);
 	}
 }
