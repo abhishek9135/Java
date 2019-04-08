@@ -22,6 +22,7 @@ class HashMapTest {
 			ydata.data = scan.nextInt();
 			hashmap.put(xkey,ydata);
 		}
+    scan.close();
 		for(int i = 0; i < len; i++){
 			Y oy = hashmap.get(keyArr[i]);
 			System.out.println(oy.data);
